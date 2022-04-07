@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adraian2)
                 i--
             } else {
-                findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adrian1)
+                findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adrian1);
                 i++
             }
         }
