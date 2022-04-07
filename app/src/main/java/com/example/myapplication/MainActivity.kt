@@ -18,20 +18,18 @@ class MainActivity : AppCompatActivity() {
         nastepny.setOnClickListener {
             if (i % 2 == 0) {
                 findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adrian1)
-                i++
             } else {
                 findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adraian2)
-                i--
             }
+            i++
         }
         poprzedni.setOnClickListener {
             if (i % 2 != 0) {
                 findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adraian2)
-                i--
             } else {
-                findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adrian1);
-                i++
+                findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.adrian1)
             }
+            i++
         }
 
     }
